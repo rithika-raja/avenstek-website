@@ -1,0 +1,123 @@
+/* CSS Sequence 7 steps) */
+/* Step 1 : parentContainer */
+/* Step 2 : component */
+/* Step 3 : componentContainer */
+/* Step 4 : row */
+/* Step 5 : column */
+/* Step 6 : subColumn */
+/* Step 7 : contentContainer */
+
+/* Step 1 : parentContainer */
+/* for parentcontainer css properties are given in the default css file */
+/* header{
+    backgroung-color: #ffffff
+ } */
+
+/* Step 2 : component */
+.herosection {
+    /* background-color:#edecec; */
+    padding: 3rem 2rem;
+}
+
+/* Step 3 : componentContainer */
+.heroContainer {
+    /* background-color: #ffffff; */
+    /* padding-bottom: 15rem; */
+}
+
+/* Step 4 : row */
+.heroBody {
+    /* background-color: #f47337; */
+    width: 100%;
+}
+
+/* Step 5 : column */
+.heroBlock {
+    /* background-color: #a2ee55; */
+    height: 56rem;
+}
+
+/* Step 6 : subColumn */
+.heroBox {
+    /* background-color: #e6c8c8; */
+    width: 50%;
+    padding-top: 2.5rem;
+}
+
+.heroContent {
+    /* background-color: #8a2be2; */
+    /* justify-content: start; */
+    align-items: start;
+    text-align: start;
+}
+
+/* Step 7 : contentContainer */
+/* .heroContent button{
+    background-color: blueviolet;
+    margin-bottom: 1.5rem;
+    color: #FE9603;
+    font-size: 1.3rem;
+    background: transparent;
+    border: 0.5px solid #FE9603;
+    border-radius: 50px;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+} */
+.heroContent h1 {
+    /* background-color: #b5aabe; */
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.4;
+    margin-bottom: 1.6rem;
+    color: #212529;
+}
+
+.heroContent h3 {
+    /* background-color: rgb(2, 77, 114); */
+    color: #adb5bd;
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.heroContent h3 span {
+    color: #FE9603;
+}
+
+.heroContent p {
+    /* background-color: #f7bd8a; */
+    line-height: 2;
+    color: #6c757d;
+}
+
+.heropara {
+    /* background-color: #8fdb8b; */
+    margin-bottom: 3rem;
+}
+
+.heroBtn {
+    /* background-color: #eb6b6b; */
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+}
+
+/* Step 7 : contentContainer */
+/* .heroBtn button {
+    background-color: skyblue;
+} */
+.contactBtn {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+    border: 0.5px solid #DEE2E6;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    color: #000000;
+    /* margin-left: 1rem */
+}

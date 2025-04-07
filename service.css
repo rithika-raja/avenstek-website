@@ -1,0 +1,211 @@
+/* CSS Sequence 7 steps) */
+/* Step 1 : parentContainer */
+/* Step 2 : component */
+/* Step 3 : componentContainer */
+/* Step 4 : row */
+/* Step 5 : column */
+/* Step 6 : subColumn */
+/* Step 7 : contentContainer */
+
+/* Step 1 : parentContainer */
+/* for parentcontainer css properties are given in the default css file */
+/* header{
+    backgroung-color: #ffffff
+ } */
+
+/* Step 2 : component */
+.service {
+    background-color: #ffffff;
+}
+
+/* Step 3 : componentContainer */
+.serviceContainer {
+    /* background-color: #b5d7f5; */
+}
+
+/* Step 4 : row 1 */
+.serviceHeadingBody {
+    /* background-color: #f5b5ef; */
+    margin-bottom: 3rem;
+}
+
+/* Step 5 : column */
+.serviceHeadingBlock {
+    /* background-color: #c5f5b5; */
+}
+
+/* Step 6 : subColumn */
+.serivceHeadingBox {
+    /* background-color: #f5dbb5; */
+}
+
+/* Step 7 : contentContainer */
+.serivceHeadingBox button {
+    /* background-color: #3b2afe; */
+}
+
+.serivceHeadingBox h2 {
+    /* background-color: #040404; */
+    font-size: 3.2rem;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.4; 
+    margin-bottom: 2rem;
+}
+
+.serivceHeadingBox p {
+    /* background-color: #f5dbb5; */
+    width: 95%;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #6c757d;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.4;
+}
+
+/* Step 4 : row 2 */
+.serviceBody {
+    /* background-color: #f5b5b5; */
+    padding: 0rem 3rem;
+}
+
+/* Step 5 : column 1 */
+.serviceBlock_1 {
+    /* background-color: #ef4848; */
+    /* text-align: right; */
+}
+
+/* Step 6 : subColumn [3] */
+.serviceBox_1 {
+    /* background-color: #58f823; */
+    padding: 3.5rem 0rem;
+    text-align: right;
+}
+
+/* card */
+/* cardMain */
+.serviceBox_1 .cardMain {
+    /* background-color: #f8f123; */
+}
+
+/* Step 7 : contentContainer */
+.serviceBox_1 .cardMain h3 {
+    /* background-color: #edd3eb; */
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+}
+
+.serviceBox_1 .cardMain p {
+    /* background-color: #2e3ca7; */
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #6c757d;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.4;
+}
+
+/* cardheader */
+.serviceBox_1 .cardHeader {
+    /* background-color: #0088ff; */
+    width: 100%;
+    height: auto;
+    /* justify-content: end; */
+}
+
+/* Step 7 : contentContainer */
+.serviceBox_1 .cardHeader figure {
+    /* background-color: #b405f9; */
+}
+
+.serviceBox_1 .cardHeader figure img {
+    /* background-color: #b8874e; */
+    height: 6rem;
+    width: 100%;
+}
+
+
+/* Step 5 : column 2 */
+.serviceImageBlock {
+    /* background-color: #2e0bf8; */
+}
+
+/* Step 6 : subColumn */
+.serviceImageBox {
+    /* background-color: #313838; */
+}
+
+/* Step 7 : contentContainer */
+.serviceImageBox figure {
+    /* background-color: #2eb831; */
+}
+
+.serviceImageBox figure img {
+    /* background-color: #fdcc06; */
+    height: 50rem;
+    width: 100%;
+}
+
+/* Step 5 : column 3 */
+.serviceBlock_2 {
+    /* background-color: #48deef; */
+    text-align: left;
+}
+
+/* Step 6 : subColumn [3] */
+.serviceBox_2 {
+    /* background-color: #71ea62; */
+    padding: 3rem 0rem;
+}
+
+/* card */
+/* cardheader */
+.serviceBox_2 .cardHeader {
+    /* background-color: #f8d00c; */
+    width: 100%;
+    height: auto;
+}
+
+/* Step 7 : contentContainer */
+.serviceBox_2 .cardHeader figure {
+    /* background-color: #f80c0c; */
+}
+
+.serviceBox_2 .cardHeader figure img {
+    /* background-color: #726a40; */
+    height: 6rem;
+    width: 100%;
+}
+
+/* cardMain */
+.serviceBox_2 .cardMain {
+    /* background-color: #b3db12; */
+}
+
+/* Step 7 : contentContainer */
+.serviceBox_2 .cardMain h3 {
+    /* background-color: #17b602; */
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+}
+
+.serviceBox_2 .cardMain p {
+    /* background-color: #eacf62; */
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #6c757d;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.4;
+}

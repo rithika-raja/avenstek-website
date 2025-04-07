@@ -1,0 +1,124 @@
+/* CSS Sequence 97 steps) */
+/* Step 1 : parentContainer */
+/* Step 2 : component */
+/* Step 3 : componentContainer */
+/* Step 4 : row */
+/* Step 5 : column */
+/* Step 6 : subColumn */
+/* Step 7 : contentContainer */
+
+/* Step 1 : parentContainer */
+/* for parentcontainer css properties are given in the default css file */
+/* header{
+    backgroung-color: #ffffff
+ } */
+
+/* Step 2 : component */
+.navBar {
+   /* background-color: #e2e2e2; */
+   padding: 3rem 2rem;
+}
+
+/* Step 3 : componentContainer */
+.navContainer {
+   background-color: #ffffff;
+}
+
+/* Step 4 : row */
+.navBody {
+   /* background-color: #c4f7a4; */
+}
+
+/* Step 5 : column 1 */
+.navLogoBlock {
+   /* background-color: #eaef61; */
+   width: 100%;
+}
+
+/* Step 6 : subColumn */
+.navLogoBox {
+   /* background-color: #f696cc; */
+   justify-content: start;
+   width: 100%;
+}
+
+/* Step 7 : contentContainer */
+.navLogoBox a {
+   /* background-color: #78c6fa; */
+   padding: 0.55rem;
+   padding-left: 2rem;
+}
+
+.navLogoBox a figure {
+   /* background-color: #8f99a0; */
+}
+
+.navLogoBox a figure img {
+   /* background-color: #f1ba4d; */
+   width: 100%;
+   height: 6rem;
+}
+
+/* Step 5 : column 2 */
+.navBlock {
+   /* background-color: #92b47e; */
+   width: 100%;
+}
+
+/* Step 6 : subColumn */
+.navBox {
+   /* background-color: #edc9dd; */
+}
+
+/* Step 7 : contentContainer */
+.navBox ul {
+   /* background-color: #e0f297; */
+   justify-content: start;
+   padding-left: 5.5rem;
+}
+
+.navBox ul li {
+   /* background-color: #940353; */
+   padding: 1.5rem;
+}
+
+.navBox ul li a {
+   /* background-color: #d9edc9; */
+   font-family: "Poppins", sans-serif;
+   color:#212529;
+   font-size: 1.4rem;
+   font-weight: 400;
+   line-height: 1;
+   /* padding: 0.5rem; */
+}
+#color{
+   /* background-color: #d9edc9; */
+   color: #fe9603;
+}
+.navBox ul li .active {
+   background-color: #fe9603;
+   color: #ffffff;
+   font-size: 1.4rem;
+   font-family: "Poppins", sans-serif;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   padding: 0.75rem 2rem;
+   transition: background-color 0.3s ease;
+}
+
+.navBox ul li .active:hover {
+   background-color: #000000;
+   color: #ffffff;
+   font-size: 1.4rem;
+   font-family: "Poppins", sans-serif;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   padding: 0.75rem 2rem;
+   transition: background-color 0.3s ease;
+}
+
+.navBox i{
+   display: none;
+}

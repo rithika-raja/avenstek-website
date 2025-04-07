@@ -1,0 +1,129 @@
+/* CSS Sequence 7 steps) */
+/* Step 1 : parentContainer */
+/* Step 2 : component */
+/* Step 3 : componentContainer */
+/* Step 4 : row */
+/* Step 5 : column */
+/* Step 6 : subColumn */
+/* Step 7 : contentContainer */
+
+/* Step 1 : parentContainer */
+/* for parentcontainer css properties are given in the default css file */
+/* header{
+    backgroung-color: #ffffff
+ } */
+
+.copyrights{
+    background-image: url(./assets/images/footer-bottom.svg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom ;
+    background-position: center center;
+}
+.copyrightsContainer{
+    /* background-color: aqua; */
+    padding: 0rem 2rem;
+}
+/* Step 4 : row 1 */
+.copyrightsBody {
+    /* background-color:#0f5380; */
+}
+
+/* Step 5 : column 1 */
+.copyrightsBlock {
+    /* background-color:rgb(66, 24, 181); */
+    width: 100%;
+}
+
+/* Step 6 : subColumn */
+.copyrightsBox {
+    /* background-color:rgb(194, 121, 127); */
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+}
+
+/* Step 7 : contentContainer */
+.copyrightsBox p {
+    /* background-color:rgb(16, 158, 63); */
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.copyrightsBox ul {
+    /* background-color:rgb(50, 130, 130); */
+}
+
+.copyrightsBox ul li {
+    /* background-color:rgb(23, 89, 183); */
+    /* padding: 0rem 0.5rem; */
+}
+
+.copyrightsBox ul li a {
+    /* background-color:rgb(4, 4, 4); */
+    font-size: 1.5rem;
+    color: #6c757d;
+    /* font-weight: 100; */
+    /* padding-right: 0.8rem; */
+}
+
+.copyrightsBox ul li span {
+    font-size: 1.5rem;
+    color: #adb5bd;
+    /* padding: 0rem 0.8rem; */
+}
+
+/* Step 5 : column 2 */
+.linksBlock {
+    /* background-color:#a945e3; */
+    /* padding: 0rem 2rem; */
+}
+
+/* Step 6 : subColumn */
+.linksBox {
+    /* background-color:rgb(212, 175, 75); */
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+/* Step 7 : contentContainer */
+.linksBox ul {
+    /* background-color:rgb(199, 159, 41); */
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-bottom: 2.5rem;
+}
+
+.linksBox ul li {
+    /* background-color:rgb(156, 156, 150); */
+    /* margin: 1rem 1rem; */
+}
+
+.linksBox ul li a {
+    /* background-color:rgb(238, 238, 193); */
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #6c757d;
+    padding: 0rem 1rem;
+}
+
+.linksBox ul li p {
+    /* background-color: aqua; */
+    font-size: 1.4rem;
+    color: #adb5bd;
+    padding: 0rem 1rem;
+}
+.copyrightsBox ul li p {
+    /* background-color: aqua; */
+    font-size: 1.4rem;
+    color:  #adb5bd;
+    padding: 0rem 1rem;
+}

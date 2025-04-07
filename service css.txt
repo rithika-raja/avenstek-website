@@ -1,0 +1,175 @@
+service css
+/* CSS Sequence 7 steps) */
+/* Step 1 : parentContainer */
+/* Step 2 : component */
+/* Step 3 : componentContainer */
+/* Step 4 : row */
+/* Step 5 : column */
+/* Step 6 : subColumn */
+/* Step 7 : contentContainer */
+
+/* Step 1 : parentContainer */
+/* for parentcontainer css properties are given in the default css file */
+/* header{
+    backgroung-color: #ffffff
+ } */
+
+/* Step 2 : component */
+.service {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Step 3 : componentContainer */
+/* .serviceContainer {
+    background-color: cadetblue;
+} */
+
+/* Step 4 : row 1*/
+.serviceHeadingBody {
+    /* background-color: blue; */
+    margin-bottom: 4.5rem;
+}
+
+/* Step 5 : column 1 */
+/* .serviceHeadingBlock {
+    background-color: yellow;
+} */
+
+/* Step 6 : subColumn */
+/* .serivceHeadingBox {
+    background-color: rgb(12, 10, 10);
+    text-align: center;
+} */
+
+/* Step 7 : contentContainer */
+ /* .serivceHeadingBox button {
+    color: #FE9603;
+ } */
+
+.serivceHeadingBox h2 {
+    /* background-color: rgb(118, 18, 18); */
+    font-size: 3.2rem ;
+    color: #000;
+    margin-bottom: 1.5rem;
+}
+
+.serivceHeadingBox p {
+    /* background-color: rgb(98, 13, 78); */
+    width: 77%;
+    padding: 0rem 20rem;
+    text-align: center;
+    margin: 0rem 15rem;
+    line-height: 1.5;
+    color: #6c757d;
+} 
+
+/* Step 4 : row 2 */
+.serviceBody {
+    /* background-color: blueviolet; */
+    margin: 0rem 4rem 0rem;
+    padding-bottom: 10rem;
+}
+
+/* Step 5 : column 1 */
+/* .serviceBlock_1 {
+    background-color: cadetblue;
+} */
+
+/* Step 6 : subColumn 1 */
+.serviceBox_1{
+    /* background-color: tomato; */
+    margin: 0rem 0rem 10rem;
+}
+.serviceBox_1 .cardHeader {
+    /* background-color: rgb(24, 189, 104); */
+    margin: 1rem
+}
+
+/* Step 7 : contentContainer */
+/* .serviceBox_1 .cardHeader figure{
+    background-color: rgb(130, 43, 27);
+}
+.serviceBox_1 .cardHeader figure img{
+    background-color: rgb(74, 72, 82);
+} */
+
+.serviceBox_1 .cardMain {
+    /* background-color: rgb(188, 171, 168); */
+    width: 100%;
+    margin: 0rem 1.5rem;
+}
+
+/* Step 7 : contentContainer */
+.serviceBox_1 .cardMain h3{
+    /* background-color: rgb(95, 255, 71); */
+    font-size: 1.8rem;
+    text-align: right;
+}
+.serviceBox_1 .cardMain p {
+    /* background-color: rgb(123, 71, 255); */
+    font-size: 1.4rem;
+    text-align: right;
+    line-height: 1.5;
+    color: #6c757d;
+}
+/* Step 5 : column 2 */
+/* .serviceImageBlock {
+    background-color: blue;
+} */
+
+/* Step 6 : subColumn 2 */
+/* .serviceImageBox{
+    background-color: coral;
+} */
+
+/* Step 7 : contentContainer */
+.serviceImageBox figure{
+    /* background-color: rgb(255, 252, 80); */
+    padding: 0rem 5rem;
+}
+/* .serviceImageBox figure img{
+    background-color: rgb(80, 255, 124);
+} */
+
+/* Step 5 : column 3 */
+/* .serviceBlock_1 {
+    background-color: cadetblue;
+} */
+
+/* Step 6 : subColumn */
+.serviceBox_2{
+    /* background-color: tomato; */
+    margin: 0rem 0rem 10rem;
+}
+.serviceBox_2 .cardHeader {
+    /* background-color: rgb(59, 94, 76); */
+    margin: 1rem;
+}
+
+/* Step 7 : contentContainer */
+/* .serviceBox_2 .cardHeader figure{
+    background-color: rgb(130, 43, 27);
+} */
+/* .serviceBox_2 .cardHeader figure img{
+    background-color: rgb(74, 72, 82);
+} */
+
+.serviceBox_2 .cardMain {
+    /* background-color: rgb(188, 171, 168); */
+    width: 100%;
+    margin: 0rem 1.5rem;
+}
+
+/* Step 7 : contentContainer */
+.serviceBox_2 .cardMain h3{
+    /* background-color: rgb(95, 255, 71); */
+    font-size: 1.8rem;
+    text-align: left;
+}
+.serviceBox_2 .cardMain p {
+    /* background-color: rgb(123, 71, 255); */
+    font-size: 1.4rem;
+    text-align: left;
+    line-height: 1.5;
+    color: #6c757d;
+}

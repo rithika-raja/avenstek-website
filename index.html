@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- PROJECT TITLE -->
+    <title>Top Web Development, App Development, and UI/UX Design in Chennai | Avenstek</title>
+    <!-- FAVORITE ICON -->
+    <link rel="shortcut icon" href="./assets/images/avenstek-favicon.png" type="image/x-icon">
+    <!-- LINK CSS STYLE SHEET -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- LINKING FONTAWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="./hero.css">
+    <link rel="stylesheet" href="./service.css">
+    <link rel="stylesheet" href="./latestwork.css">
+    <link rel="stylesheet" href="./getstarted.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./copyrights.css">
+    <link rel="stylesheet" href="./responsive.css">
+
+</head>
+
+<body>
+    <header> <!-- 1.parentContainer -->
+        <nav class="navBar componentSpacing" id="home"><!--  2.component -->
+            <div class="navContainer screenSize"><!-- 3.componentContainer -->
+                <div class="navBody grid-2"><!-- 4.row -->
+                    <div class="navLogoBlock"> <!-- 5. column 1 -->
+                        <div class="navLogoBox dflex"><!-- 6.subColumn -->
+                            <a href="#home">
+                                <figure>
+                                    <img src="./assets/images/avensteklogo.png" alt="logo-image">
+                                    <!-- 7.contentContainer-->
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navBlock"> <!-- 5. column 2 -->
+                        <div class="navBox"><!-- 6.subColumn -->
+                            <i class="fa-solid fa-bars dflex"></i>
+                            <ul class="dflex">
+                                <li><a href="#home" id="color">Home</a></li> <!-- 7.contentContainer-->
+                                <li><a href="#service">Services</a></li> <!-- 7.contentContainer-->
+                                <li><a href="#contacts">Contact</a></li> <!-- 7.contentContainer-->
+                                <li><button type="button" class="active"
+                                        onclick="window.open('./contact.html','_blank');">Get
+                                        Started</button></li> <!-- 7.contentContainer-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="herosection componentSpacing"><!--  2.component -->
+            <div class="heroContainer screenSize"><!-- 3.componentContainer -->
+                <div class="heroBody grid-1"><!-- 4.row -->
+                    <div class="heroBlock"> <!-- 5. column 1 -->
+                        <div class="heroBox"><!-- 6.subColumn -->
+                            <div class="heroContent dflex-col">
+                                <button type="button" class="primarybutton"
+                                    onclick="window.open('./contact.html','_blank');">Tailored Website
+                                    Solutions</button></li> <!-- 7.contentContainer-->
+                                <!-- <a href="./index.html">Tailored Website Solutions</a> --><!-- 7.contentContainer-->
+                                <h1>Top Web And App Development
+                                    Services In Chennai.</h1> <!-- 7.contentContainer-->
+                                <h3>- Transform Your <span> Online Presence </span> Today.</h3>
+                                <!-- 7.contentContainer-->
+                                <p>Welcome to Avenstek! We specialize in creating custom websites that are as unique as
+                                    your business .</p>
+                                <p class="heropara"> From captivating designs to seamless functionality</p>
+                                <!-- 7.contentContainer-->
+                            </div>
+                            <div class="heroBtn dflex">
+                                <button type="button" class="secondarybutton " onclick="window.open('#service','_self')">Explore
+                                    Our Services</button> <!-- 7.contentContainer-->
+                                <button type="button" class="contactBtn"
+                                    onclick="window.open('#contacts','_self')">Contact Us</button>
+                                <!-- 7.contentContainer-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main> <!-- 1.parentContainer -->
+        <div class="service componentSpacing" id="service"><!--  2.component -->
+            <div class="serviceContainer screenSize"><!-- 3.componentContainer -->
+                <div class="serviceHeadingBody grid-1"><!-- 4.row 1 -->
+                    <div class="serviceHeadingBlock"> <!-- 5. column -->
+                        <div class="serivceHeadingBox dflex-col"><!-- 6.subColumn -->
+                            <button type="button" class="primarybutton"
+                                    onclick="window.open('#contacts','_self')">Services</button>
+                            <h2>What We Do</h2> <!-- 7.contentContainer-->
+                            <p>At Avenstek, we specialize in providing
+                                comprehensive web solutions tailored to enhance
+                                your business's online presence and performance.
+                            </p> <!-- 7.contentContainer-->
+                        </div>
+                    </div>
+                </div>
+                <div class="serviceBody grid-3"><!-- 4.row 2 -->
+                    <div class="serviceBlock_1 dflex-col"> <!-- 5. column 1 -->
+                        <div class="serviceBox_1 dflex"><!-- 6.subColumn 1 -->
+                            <div class="cardMain">
+                                <h3>Custom Website Design</h3> <!-- 7.contentContainer-->
+                                <p>We create visually stunning and user-friendly websites that reflect your brand
+                                    identity and resonate with your target audience.</p> <!-- 7.contentContainer-->
+                            </div>
+                            <div class="cardHeader dflex">
+                                <figure>
+                                    <img src="./assets/images/icon-1.png" alt="icon-1"> <!-- 7. contentContainer -->
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="serviceBox_1 dflex"><!-- 6.subColumn 2 -->
+                            <div class="cardMain">
+                                <h3>E-commerce Solutions</h3> <!-- 7.contentContainer-->
+                                <p>Drive sales and expand your reach with our tailored e-commerce platforms designed for
+                                    seamless online transactions.</p> <!-- 7.contentContainer-->
+                            </div>
+                            <div class="cardHeader dflex">
+                                <figure>
+                                    <img src="./assets/images/icon-2.png" alt="icon-2"> <!-- 7.contentContainer-->
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="serviceBox_1 dflex"><!-- 6.subColumn 3 -->
+                            <div class="cardMain">
+                                <h3>Responsive Development</h3> <!-- 7.contentContainer-->
+                                <p>Ensure optimal viewing experience across all devices with our responsive website
+                                    development services.</p> <!-- 7.contentContainer-->
+                            </div>
+                            <div class="cardHeader dflex">
+                                <figure>
+                                    <img src="./assets/images/icon-3.png" alt="icon-3"> <!-- 7.contentContainer-->
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="serviceImageBlock dflex"> <!-- 5. column 2 -->
+                        <div class="serviceImageBox"><!-- 6.subColumn -->
+                            <figure>
+                                <img src="./assets/images/seo-mobile.png" alt="seo-mobile"> <!-- 7.contentContainer-->
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="serviceBlock_2 dflex-col"> <!-- 5. column 3 -->
+                        <div class="serviceBox_2 dflex"><!-- 6.subColumn 1 -->
+                            <div class="cardHeader dflex">
+                                <figure>
+                                    <img src="./assets/images/icon-4.png" alt="icon-4"> <!-- 7.contentContainer-->
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>SEO Optimization</h3> <!-- 7.contentContainer-->
+                                <p>Improve your website's visibility and ranking on search engines with our expert SEO
+                                    optimization strategies.</p> <!-- 7.contentContainer-->
+                            </div>
+                        </div>
+                        <div class="serviceBox_2 dflex"><!-- 6.subColumn 2 -->
+                            <div class="cardHeader dflex">
+                                <figure>
+                                    <img src="./assets/images/icon-5.png" alt="icon-5"> <!-- 7.contentContainer-->
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>Content Management Systems</h3> <!-- 7.contentContainer-->
+                                <p>Streamline your website management processes with our intuitive and scalable content
+                                    management solutions.</p> <!-- 7.contentContainer-->
+                            </div>
+                        </div>
+                        <div class="serviceBox_2 dflex"><!-- 6.subColumn 3 -->
+                            <div class="cardHeader dflex">
+                                <figure>
+                                    <img src="./assets/images/icon-6.png" alt="icon-6"> <!-- 7.contentContainer-->
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h3>Support & Maintenance</h3> <!-- 7.contentContainer-->
+                                <p>Stay worry-free with our ongoing support and maintenance services to keep your
+                                    website running smoothly.</p> <!-- 7.contentContainer-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="latestWork componentSpacing"><!--  2.component -->
+            <div class="latestWorkContainer screenSize"><!-- 3.componentContainer -->
+                <div class="latestHeadingBody grid-1"><!-- 4.row 1 -->
+                    <div class="latestheadingBlock"> <!-- 5. column -->
+                        <div class="latestHeadingBox dflex-col"><!-- 6.subColumn -->
+                            <button type="button" class="primarybutton"
+                                    onclick="window.open('#contacts','_self')">Completed Projects</button>
+                                    <h2>Our Latest Works</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="latestWorkBody grid-3"><!-- 4.row 2 -->
+                    <div class="latestWorkBlock"> <!-- 5. column 1 -->
+                        <div class="latestWorkBox"><!-- 6.subColumn -->
+                            <div class="cardHeader dflex">
+                                <a href="#home">
+                                    <figure>
+                                        <img src="./assets/images/work-img-1.jpg.jpeg" alt="work-img-1">
+                                        <!-- 7.contentContainer-->
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="cardMain dflex-col">
+                                <a href="">
+                                    <h3>Dynamic E-commerce Platform</h3> <!-- 7.contentContainer-->
+                                </a>
+                                <p>Tailored solution for online retail businesses</p> <!-- 7.contentContainer-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latestWorkBlock"> <!-- 5. column 2 -->
+                        <div class="latestWorkBox"><!-- 6.subColumn -->
+                            <div class="cardHeader dflex">
+                                <a href="#home">
+                                    <figure>
+                                        <img src="./assets/images/work-img-2.jpg.jpeg" alt="work-img-2">
+                                        <!-- 7.contentContainer-->
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="cardMain dflex-col">
+                                <a href="">
+                                    <h3>Startup Website Launch</h3> <!-- 7.contentContainer-->
+                                </a>
+                                <p>Helping startups establish their online presence.</p> <!-- 7.contentContainer-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latestWorkBlock"> <!-- 5. column 3 -->
+                        <div class="latestWorkBox"><!-- 6.subColumn -->
+                            <div class="cardHeader dflex">
+                                <a href="#home">
+                                    <figure>
+                                        <img src="./assets/images/work-img-3.jpg.jpeg" alt="work-img-3">
+                                        <!-- 7.contentContainer-->
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="cardMain dflex-col">
+                                <a href="">
+                                    <h3>Creative Agency Showcase</h3> <!-- 7.contentContainer-->
+                                </a>
+                                <p>Highlighting agency's portfolio and services.</p> <!-- 7.contentContainer-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latestWorkBlock"> <!-- 5. column 4 -->
+                        <div class="latestWorkBox"><!-- 6.subColumn -->
+                            <div class="cardHeader dflex">
+                                <a href="#home">
+                                    <figure>
+                                        <img src="./assets/images/work-img-4.jpg.jpeg" alt="work-img-4">
+                                        <!-- 7.contentContainer-->
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="cardMain dflex-col">
+                                <a href="">
+                                    <h3>Furniture E-commerce Store</h3> <!-- 7.contentContainer-->
+                                </a>
+                                <p>Crafting an elegant online store for furniture enthusiasts.</p>
+                                <!-- 7.contentContainer-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latestWorkBlock"> <!-- 5. column 5 -->
+                        <div class="latestWorkBox"><!-- 6.subColumn -->
+                            <div class="cardHeader dflex">
+                                <a href="#home">
+                                    <figure>
+                                        <img src="./assets/images/work-img-5.jpg.jpeg" alt="work-img-5">
+                                        <!-- 7.contentContainer-->
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="cardMain dflex-col">
+                                <a href="">
+                                    <h3>Event Management Website</h3> <!-- 7.contentContainer-->
+                                </a>
+                                <p>Creating interactive platforms for event organizers.</p> <!-- 7.contentContainer-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latestWorkBlock"> <!-- 5. column 6 -->
+                        <div class="latestWorkBox"><!-- 6.subColumn -->
+                            <div class="cardHeader dflex">
+                                <a href="#home">
+                                    <figure>
+                                        <img src="./assets/images/work-img-6.jpg.jpeg" alt="work-img-6">
+                                        <!-- 7.contentContainer-->
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="cardMain dflex-col">
+                                <a href="">
+                                    <h3>Real Estate Website Development</h3> <!-- 7.contentContainer-->
+                                </a>
+                                <p>Building immersive platforms for real estate agencies.</p> <!-- 7.contentContainer-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="latestBtnBody grid-1"><!-- 4.row 3 -->
+                    <div class="latestbtnBlock dflex"> <!-- 5. column -->
+                        <div class="latestBtnBox"><!-- 6.subColumn -->
+                            <button type="button" class="secondarybutton" onclick="window.open('#home','_self');">View All
+                                Works</button>
+                            <!-- 7.contentContainer-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="getStarted componentSpacing"><!--  2.component -->
+            <div class="getStartedContainer screenSize"><!-- 3.componentContainer -->
+                <div class="planningbody grid-3"><!-- 4.row 1 -->
+                    <div class="plainningBlock"> <!-- 5. column 1 -->
+                        <div class="planningBox dflex-col"><!-- 6.subColumn -->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/research.svg" alt=""> <!-- 7.contentContainer-->
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h4>1. Planning & Research</h4> <!-- 7.contentContainer-->
+                                <p>Strategic groundwork for informed decisions and effective strategies.</p>
+                                <!-- 7.contentContainer-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plainningBlock"> <!-- 5. column 2 -->
+                        <div class="planningBox dflex-col"><!-- 6.subColumn -->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/optimizing.svg" alt=""> <!-- 7.contentContainer-->
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h4>2. Optimizing</h4> <!-- 7.contentContainer-->
+                                <p>Fine-tuning processes for maximum efficiency and performance.</p>
+                                <!-- 7.contentContainer-->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plainningBlock"> <!-- 5. column 3 -->
+                        <div class="planningBox dflex-col"><!-- 6.subColumn -->
+                            <div class="cardHeader">
+                                <figure>
+                                    <img src="./assets/images/result.svg" alt=""> <!-- 7.contentContainer-->
+                                </figure>
+                            </div>
+                            <div class="cardMain">
+                                <h4>3. Result</h4> <!-- 7.contentContainer-->
+                                <p>Delivering measurable outcomes and tangible successes.</p> <!-- 7.contentContainer-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="getStartedBody grid-1"><!-- 4.row 2 -->
+                    <div class="getStartedBlock"> <!-- 5. column -->
+                        <div class="getStartedBox dflex-col"><!-- 6.subColumn -->
+                            <h3>Start Building Your Dream Website Today with Avenstek!</h3> <!-- 7.contentContainer-->
+                            <h2>Get Started with a 30-Day <span>Free Trial</span></h2> <!-- 7.contentContainer-->
+                            <p>Unlock the potential of your business online with Avenstek's professional website
+                                creation services. Sign up for a free trial and explore the endless possibilities.</p>
+                            <!-- 7.contentContainer-->
+                            <button type="button" class="secondarybutton" onclick="window.open('./contact','_self')">Get
+                                Started</button>
+                            <!-- 7.contentContainer-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer> <!-- 1.parentContainer -->
+        <div class="contacts componentSpacing" id="contacts"><!--  2.component -->
+            <div class="contactsContainer screenSize"><!-- 3.componentContainer -->
+                <div class="avenstekBody grid-1"><!-- 4.row 1 -->
+                    <div class="avenstekBlock dflex"> <!-- 5. column -->
+                        <div class="imageLogoBox"><!-- 6.subColumn 1 -->
+                            <a href="#home">
+                                <figure>
+                                    <img src="./assets/images/avensteklogo.png" alt="logo-image">
+                                    <!-- 7.contentContainer-->
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="slash">
+                            <div class="slashBox">
+                                <p>|</p>
+                            </div>
+                        </div>
+                        <div class="logoContentBox"><!-- 6.subColumn 2 -->
+                            <!-- <p><span>|</span></p> -->
+                            <p>We believe in <span>Simple , Creative & Flexible</span> Design Standards with a Retina & Responsive
+                                Approach. Browse the amazing Features this template offers.</p>
+                            <!-- 7.contentContainer-->
+                        </div>
+                    </div>
+                </div>
+                <div class="hr_line grid-1">
+                    <div class="hr_lineBox"></div>
+                </div>
+                <div class="contactsBody grid-4"><!-- 4.row 2 -->
+                    <div class="quicklinksBlock dflex"> <!-- 5. column -->
+                        <div class="quickLinksBox"><!-- 6.subColumn -->
+                            <ul>
+                                <li><i class="fa-solid fa-caret-right"></i>
+                                    <a href="#home">Home</a>
+                                </li> <!-- 7.contentContainer-->
+                                <li><i class="fa-solid fa-caret-right"></i>
+                                    <a href="#about">About</a>
+                                </li> <!-- 7.contentContainer-->
+                                <li><i class="fa-solid fa-caret-right"></i>
+                                    <a href="#blog">Blog</a>
+                                </li> <!-- 7.contentContainer-->
+                                <li><i class="fa-solid fa-caret-right"></i>
+                                    <a href="#careers">Careers</a>
+                                </li> <!-- 7.contentContainer-->
+                                <li><i class="fa-solid fa-caret-right"></i>
+                                    <a href="#contact">Contact</a>
+                                </li> <!-- 7.contentContainer-->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="quicklinksBlock dflex"> <!-- 5. column -->
+                        <div class="quickLinksBox"><!-- 6.subColumn -->
+                            <ul>
+                                <li><i class="fa-solid fa-caret-right"></i>
+                                    <a href="#onepage">One Page</a>
+                                </li> <!-- 7.contentContainer-->
+                                <li><i class="fa-solid fa-caret-right"></i>
+                                    <a href="#ecommerce">Ecommerce</a>
+                                </li> <!-- 7.contentContainer-->
+                                <li><i class="fa-solid fa-caret-right"></i>
+                                    <a href="restaurant">Restaurant</a>
+                                </li> <!-- 7.contentContainer-->
+                                <li><i class="fa-solid fa-caret-right"></i>
+                                    <a href="#construction">Construction</a>
+                                </li> <!-- 7.contentContainer-->
+                                <li><i class="fa-solid fa-caret-right"></i>
+                                    <a href="#coperate">Coperate</a>
+                                </li> <!-- 7.contentContainer-->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="quicklinksBlock dflex"> <!-- 5. column -->
+                        <div class="quickLinksBox"><!-- 6.subColumn -->
+                            <ul>
+                                <li><i class="fa-solid fa-caret-right"></i>
+                                    <a href="#facebook">facebook</a>
+                                </li> <!-- 7.contentContainer-->
+                                <li><i class="fa-solid fa-caret-right"></i>
+                                    <a href="#instagram">instagram</a>
+                                </li> <!-- 7.contentContainer-->
+                                <li><i class="fa-solid fa-caret-right"></i>
+                                    <a href="#linkedin">LinkedIn</a>
+                                </li> <!-- 7.contentContainer-->
+                                <li><i class="fa-solid fa-caret-right"></i>
+                                    <a href="#twitter">Twitter</a>
+                                </li> <!-- 7.contentContainer-->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contactsBlock dflex-col"> <!-- 5. column -->
+                        <div class="callusBox dflex"><!-- 6.subColumn -->
+                            <div>
+                                <i class="fa-solid fa-phone"></i> <!-- 7.contentContainer-->
+                            </div>
+                            <div>
+                                <h4>Call Us:</h4> <!-- 7.contentContainer-->
+                                <a href="tel:+91 9789577062">+91 9789577062</a> <!-- 7.contentContainer-->
+                            </div>
+                        </div>
+                        <div class="emailBox dflex"><!-- 6.subColumn -->
+                            <div>
+                                <i class="fa-regular fa-envelope"></i> <!-- 7.contentContainer-->
+                            </div>
+                            <div>
+                                <h4>Email Us:</h4> <!-- 7.contentContainer-->
+                                <a href="mailto:hr@avenstek.com">hr@avenstek.com</a> <!-- 7.contentContainer-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="subscriptionBody grid-2"><!-- 4.row 3 -->
+                    <div class="subscriptionBlock dflex"> <!-- 5. column -->
+                        <div class="subscriptionBox"><!-- 6.subColumn -->
+                            <p>Subscribe to Our Newsletter to get Important News, Amazing Offers & Inside Scoops:</p>
+                            <!-- 7.contentContainer -->
+                            <form action="#" class="dflex" method="post"><!-- 7.contentContainer -->
+                                <div class="formGroup">
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                    <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                                </div>
+                                <div class="formGroup btn">
+                                    <button type="submit">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyrights componentSpacing">
+            <div class="copyrightsContainer screenSize">
+                <div class="copyrightsBody grid-2"><!-- 4.row -->
+                    <div class="copyrightsBlock"> <!-- 5. column 1 -->
+                        <div class="copyrightsBox dflex-col"><!-- 6.subColumn -->
+                            <p>Copyrights &copy; 2025 All Rights Reserved by Avenstek</p><!-- 7.contentContainer -->
+                            <ul class="dflex">
+                                <li><a href="#">Terms of Use</a></li><!-- 7.contentContainer -->
+                                <li><p>/</p></li>
+                                <li><a href="#">Policy Privacy</a></li><!-- 7.contentContainer -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="linksBlock"> <!-- 5. column 2 -->
+                        <div class="linksBox dflex"><!-- 6.subColumn -->
+                            <ul class="dflex">
+                                <li><a href="">Home</a></li><!-- 7.contentContainer -->
+                                <li><p>/</p></li>
+                                <li><a href="">About Us</a></li><!-- 7.contentContainer -->
+                                <li><p>/</p></li>
+                                <li><a href="">Team</a></li><!-- 7.contentContainer -->
+                                <li><p>/</p></li>
+                                <li><a href="">Clients</a></li><!-- 7.contentContainer -->
+                                <li><p>/</p></li>
+                                <li><a href="">FAQs</a></li><!-- 7.contentContainer -->
+                                <li><p>/</p></li>
+                                <li><a href="">Contact</a></li><!-- 7.contentContainer -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

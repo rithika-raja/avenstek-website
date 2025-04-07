@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- PROJECT TITLE -->
+    <title>Top Web Development, App Development, and UI/UX Design in Chennai | Avenstek</title>
+    <!-- FAVORITE ICON -->
+    <link rel="shortcut icon" href="./assets/images/avenstek-favicon.png" type="image/x-icon">
+    <!-- LINK CSS STYLE SHEET -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- LINKING FONTAWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./nav.css">
+</head>
+
+<body>
+    <header> <!-- 1.parentContainer -->
+        <nav class="navBar componentSpacing" id="home"><!--  2.component -->
+            <div class="navContainer screenSize"><!-- 3.componentContainer -->
+                <div class="navBody grid-2"><!-- 4.row -->
+                    <div class="navLogoBlock"> <!-- 5. column 1 -->
+                        <div class="navLogoBox dflex"><!-- 6.subColumn -->
+                            <a href="#home">
+                                <figure>
+                                    <img src="./assets/images/avensteklogo.png" alt="logo-image">
+                                    <!-- 7.contentContainer-->
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navBlock"> <!-- 5. column 2 -->
+                        <div class="navBox"><!-- 6.subColumn -->
+                            <ul class="dflex">
+                                <li><a href="#home" id="color">Home</a></li> <!-- 7.contentContainer-->
+                                <li><a href="#service">Services</a></li> <!-- 7.contentContainer-->
+                                <li><a href="#contacts">Contact</a></li> <!-- 7.contentContainer-->
+                                <li><button type="button" class="active"
+                                        onclick="window.open('./contact.html','_blank');">Get
+                                        Started</button></li> <!-- 7.contentContainer-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
