@@ -4,7 +4,7 @@
 
 /* Small devices (landscape phones, upto 576px and below) */
 /* @media (width <=576px) */
-@media (max-width: 576px) {
+@media (max-width: 360px) {
 
     .grid-1,
     .grid-2,
@@ -13,45 +13,6 @@
         grid-template-columns: 1fr;
         padding: 0rem 1rem;
     }
-
-    .navBlock {
-        display: flex;
-        /* without this wont work */
-        align-items: center;
-        /* top & bottom Alignment */
-        justify-content: center;
-        /* left & right Alignment */
-    }
-
-    .navLogoBox {
-        /* background-color: #f696cc; */
-        justify-content: start;
-        width: 50%;
-    }
-    .navBox ul {
-        display: none;
-    }
-
-    .navBox i {
-        /* background-color: aqua; */
-        width: 100%;
-        display: block;
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        font-size: 2.5rem;
-        color: #6c757d;
-        cursor: pointer;
-        border:0.5px solid #6c757d;
-        border-radius: 5px;
-        padding: 1rem 2rem;
-    }
-
-    .navBox i:hover {
-        display: block;
-        cursor: pointer;
-    }
-
 
     .serviceBox_1,
     .serviceBox_2 {

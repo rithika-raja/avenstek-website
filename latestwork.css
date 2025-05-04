@@ -148,7 +148,7 @@
     /* background-color: rgb(40, 73, 7); */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 360px) {
     .latestWorkBox .cardMain{
     /* background-color: #0088ff; */
     display: flex;

@@ -83,12 +83,12 @@
    display: none;
    cursor: pointer;
    flex-direction: column;
-   /* border: #787676 solid 0.1rem; */
+   border: #787676 solid 0.1rem;
    border-radius: 0.5rem;
    padding: 0.75rem 1rem;
    position: absolute;
-   top: 2.7rem;
-   right: 2rem;
+   top: 5rem;
+   right: 3.5rem;
 }
 
 .hamburger i {
@@ -151,11 +151,10 @@
 
 
 /* Responsive styles */
-@media (max-width: 768px) {
+@media (max-width: 360px) {
 
    .hamburger {
       display: block;
-      margin-top: 1.25rem;
    }
    .navLogoBox {
       margin-top: 0.75rem;

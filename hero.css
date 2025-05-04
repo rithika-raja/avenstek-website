@@ -122,7 +122,7 @@
     /* margin-left: 1rem */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 360px) {
     .heroBlock {
         /* background-color: #a2ee55; */
         height: 68rem;
