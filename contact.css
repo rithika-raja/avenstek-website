@@ -306,7 +306,7 @@
     color: #ffffff;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 576px)  {
     .subBox {
         flex-direction: column;
         gap: 1rem;

@@ -153,7 +153,7 @@
 
 
 /* Responsive styles */
-@media (max-width: 360px) {
+@media(max-width: 576px)  {
    .navBar {
       padding: 2rem 2rem;
    }
