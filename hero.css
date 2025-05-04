@@ -121,3 +121,16 @@
     color: #000000;
     /* margin-left: 1rem */
 }
+
+@media (max-width: 768px) {
+    .heroBlock {
+        /* background-color: #a2ee55; */
+        height: 68rem;
+    }
+    .heroContent {
+        /* background-color: #8a2be2; */
+        /* justify-content: start; */
+        align-items: center;
+        text-align: center;
+    }
+}

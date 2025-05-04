@@ -1,0 +1,92 @@
+/* CSS Sequence 7 steps) */
+/* Step 1 : parentContainer */
+/* Step 2 : component */
+/* Step 3 : componentContainer */
+/* Step 4 : row */
+/* Step 5 : column */
+/* Step 6 : subColumn */
+/* Step 7 : contentContainer */
+
+/* Step 1 : parentContainer */
+/* for parentcontainer css properties are given in the default css file */
+/* header{
+    backgroung-color: #ffffff
+ } */
+
+/* Step 2 : component */
+/* .herosection {
+    background-color:rgb(40, 34, 34);
+} */
+
+/* Step 3 : componentContainer */
+/* .heroContainer{
+    background-color: slategray;
+} */
+
+/* Step 4 : row */
+/* .heroBody{
+    background-color: sienna;
+} */
+
+/* Step 5 : column */
+.heroBlock{
+    /* background-color: chartreuse; */
+    margin: 17.2rem 0rem;
+}
+
+/* Step 6 : subColumn */
+.heroBox{
+    /* background-color: rgb(241, 109, 109); */
+    width: 70%;
+    height: auto;
+    margin-right: 50%;
+}
+.heroContent{
+    /* background-color: blueviolet; */
+    font-size: 1.4rem;
+    font-family: "Poppins",sans-serif;
+}
+
+/* Step 7 : contentContainer */
+.heroContent h4{
+    /* background-color: blueviolet; */
+    color: #FE9603;
+    font-size: 1.3rem;
+}
+.heroContent h1{
+    /* background-color: blueviolet; */
+    font-size: 3.5rem;
+}
+.heroContent h3 {
+    /* background-color: blueviolet; */
+    font-size: 1.8rem;
+    color: #ADB5BD;
+    margin: 1.5rem;
+}
+.heroContent h3 span{
+    color: #FE9603;
+}
+.heroContent p {
+    /* background-color: blueviolet; */
+    font-size: 1.6rem;
+    color: #6C757D;
+}
+
+/* .heroBtn{
+    background-color: rgb(239, 236, 236);
+}  */
+
+/* Step 7 : contentContainer */
+.heroBtn button {
+    /* background-color: skyblue; */
+    margin-top: 3rem;
+    line-height: 1.5rem;
+    font-size: 2rem;
+}
+.heroBtn button #serviceBtn {
+    background-color: #FE9603;
+    
+}
+.heroBtn button .contactBtn {
+    background-color: rgb(87, 164, 164);
+}

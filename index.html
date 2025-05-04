@@ -42,8 +42,11 @@
                     </div>
                     <div class="navBlock"> <!-- 5. column 2 -->
                         <div class="navBox"><!-- 6.subColumn -->
-                            <i class="fa-solid fa-bars dflex"></i>
-                            <ul class="dflex">
+                            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                            <label for="menu-toggle" class="hamburger">
+                                <i class="fa-solid fa-bars"></i>
+                            </label>
+                            <ul class="nav-links dflex">
                                 <li><a href="#home" id="color">Home</a></li> <!-- 7.contentContainer-->
                                 <li><a href="#service">Services</a></li> <!-- 7.contentContainer-->
                                 <li><a href="#contacts">Contact</a></li> <!-- 7.contentContainer-->
@@ -500,12 +503,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="subscriptionBody grid-2"><!-- 4.row 3 -->
+                <div class="subscriptionBody grid-1"><!-- 4.row 3 -->
                     <div class="subscriptionBlock dflex"> <!-- 5. column -->
                         <div class="subscriptionBox"><!-- 6.subColumn -->
                             <p>Subscribe to Our Newsletter to get Important News, Amazing Offers & Inside Scoops:</p>
                             <!-- 7.contentContainer -->
-                            <form action="#" class="dflex" method="post"><!-- 7.contentContainer -->
+                            <form action="#" class="subBox dflex" method="post"><!-- 7.contentContainer -->
                                 <div class="formGroup">
                                     <i class="fa-solid fa-paper-plane"></i>
                                     <input type="email" id="email" name="email" placeholder="Enter Your Email" required>

@@ -147,3 +147,14 @@
 .latestBtnBox button {
     /* background-color: rgb(40, 73, 7); */
 }
+
+@media (max-width: 768px) {
+    .latestWorkBox .cardMain{
+    /* background-color: #0088ff; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+}
